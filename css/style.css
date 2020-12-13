@@ -1,50 +1,29 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    color: #666;
 }
-
-
-/* Header/logo tiêu đề */
-
 header {
-    padding: 5px;
     text-align: center;
-    background: #1abc9c;
-    color: white;
-    height: 120px;
+    background-image: url("/images/bg_02.jpg");
 }
-
-
-/* Tăng kích thước font chữ cho header */
-
-header h1 {
-    font-size: 40px;
+html {
+    scroll-behavior: smooth;
 }
-
-header h1,
-h2,
-h3 {
-    color: white;
-}
-
-section {
-    padding: 20px;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
 }
 
 li {
-    float: left;
+    display: inline-block;
 }
-
+nav {
+    text-align: center;
+    background-image: url("/images/header_bg.png");
+    background-repeat: repeat-x;
+}
 li a,
 .dropbtn {
     display: inline-block;
@@ -57,7 +36,6 @@ li a,
 li a:hover:not(.active),
 .dropdown:hover .dropbtn {
     color: white;
-    background-color: #4CAF50;
 }
 
 li.dropdown {
@@ -99,3 +77,167 @@ li.dropdown {
 .hideable-section:first-of-type {
     display: block;
 }
+.home {
+    text-align: center;
+}
+.contentIntro {
+    background-image: url("/images/bg_03.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+}
+.contentMirana {
+    background-image: url("/images/bg_04.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+}
+#btn_playforfree {
+    border: 1px solid #3A73A3;
+    background-color: #192A39;
+    color: #4B75A9;
+    padding: 15px 50px;
+}
+#btn_playforfree:hover {
+    background-color: #263F56;
+    cursor: pointer;
+}
+div h1 {
+    color: #A49C97;
+}
+h3.incontent2{
+    color: #5C6163;
+    letter-spacing: 4px;
+}
+.signature {
+    font-style: italic;
+    float:right;
+}
+.textMirana {
+    width: 50%;
+    float: right;
+    margin-top: 5%;
+    font-size: 33px;
+    padding-right: 15%;
+}
+.contentTurret {
+    background-image: url("/images/bg_05.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    color: #ACB4B9;
+}
+.textTurret {
+    width: 50%;
+    float: left;
+    margin-top: 5%;
+    font-size: 33px;
+    padding-left: 15%;
+}
+.contentDisruptor {
+    background-image: url("/images/bg_06.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+}
+.textDisruptor {
+    width: 50%;
+    float: right;
+    margin-top: 5%;
+    font-size: 33px;
+    padding-right: 15%;
+}
+.contentGallery {
+    background-image: url("/images/bg_07.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+}
+img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    width: 60%;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 20%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }

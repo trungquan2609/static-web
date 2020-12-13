@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Dota 2</title>
+    <link rel="icon" type="image/x-icon" href="/images/ic-dota2.png">
     <link rel="StyleSheet" href="./css/style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -11,13 +12,9 @@
 </head>
 
 <body>
-    <header>
-        <h1>MySite</h1>
-        <h3>Slogan go here...</h3>
-    </header>
     <nav>
         <ul>
-            <li><a data-section="home">Home</a></li>
+            <li><a data-section="home"><img src="/images/logo.png" alt=""></a></li>
             <li><a data-section="services">Services</a></li>
             <li class="dropdown">
                 <a href="javascript:void(0)" class="dropbtn">Products</a>
@@ -27,12 +24,137 @@
                     <a data-section="link3">Link 3</a>
                 </div>
             </li>
-            <li style="float:right"><a data-section="about">About us</a></li>
+            <li><a data-section="about">About us</a></li>
         </ul>
     </nav>
+    <!--<header>
+        <h1>Welcome to The International</h1>
+        <img src="/images/the-international.jpg" alt="" width="80%">
+    </header>-->
 
     <section id="home" class="hideable-section">
-        <div>Home content</div>
+        <header>
+            <div class="home">
+                <video autoplay width="70%" controls>
+                    <source src="/images/intro-dota2.mp4" type="video/mp4">
+                </video>
+            </div>
+        </header>
+        <div class="contentIntro">
+            <img src="/images/dota_logo.png" alt="">
+            <h1>"A MODERN MULTIPLAYER MASTERPIECE</h1>
+            <h3 class="incontent2">- DESTRUCTOID</h3>
+            <br>
+            <button id="btn_playforfree">PLAY FOR FREE</button>
+            <br>
+            <br>
+            <h3 class="incontent2">JOIN THE BATTLE. BRING YOUR FRIENDS.</h3>
+            <br><br>
+        </div>
+        <div class="contentMirana">
+            <div class="textMirana">
+                <h3>The most-played game on Steam.</h3><br>
+                <p>Every day, millions of players worldwide enter battle as one of over a hundred Dota heroes. And no matter if it's their 10th hour of play or 1,000th, there's always something new to discover. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has truly taken on a life of its own.</p>
+                <br>
+                <br>
+                <p class="signature">"The game is in an extraordinary place."</p>
+                <br>
+                <p style="float:right;">–PC Gamer</p>
+            </div>
+        </div>
+        <div class="contentTurret">
+            <div class="textTurret">
+                <h3>One Battlefield. Infinite Possibilities.</h3><br>
+                <p>When it comes to diversity of heroes, abilities, and powerful items, Dota boasts an endless array—no two games are the same. Any hero can fill multiple roles, and there's an abundance of items to help meet the needs of each game. Dota doesn't provide limitations on how to play, it empowers you to express your own style.</p>
+                <br><br>
+                <p class="signature">"...offers more than literally any game I can think of."</p><br>
+                <p style="float:right;">–Eurogamer</p>
+            </div>
+        </div>
+        <div class="contentDisruptor">
+            <div class="textDisruptor">
+                <h3>All heroes are free.</h3><br>
+                <p>Competitive balance is Dota's crown jewel, and to ensure everyone is playing on an even field, the core content of the game—like the vast pool of heroes—is available to all players. Fans can collect cosmetics for heroes and fun add-ons for the world they inhabit, but everything you need to play is already included before you join your first match.</p>
+                <br><br>
+                <p class="signature">"...totally free to play in the way
+                    we wish all free-to-play games could be"</p><br>
+                <p style="float:right;">–IGN</p>
+            </div>
+        </div>
+        <div class="contentGallery">
+              <div class="container">
+                <div class="mySlides">
+                  <video width="100%" controls>
+                    <source src="/images/carousel_1.webm" type="video/mp4">
+                </video>
+                </div>
+              
+                <div class="mySlides">
+                  <img src="/images/screenshot_01.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <img src="/images/screenshot_02.jpg" style="width:100%">
+                </div>
+                  
+                <div class="mySlides">
+                  <img src="/images/screenshot_03.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <img src="/images/screenshot_04.jpg" style="width:100%">
+                </div>
+                  
+                <div class="mySlides">
+                  <img src="/images/screenshot_05.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides">
+                    <img src="/images/screenshot_06.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <img src="/images/screenshot_07.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <img src="/images/screenshot_08.jpg" style="width:100%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+        
+                <div class="row">
+                  <div class="column">
+                    <img class="demo cursor" src="/images/carousel_1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="/images/screenshot_01.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="/images/screenshot_02.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="/images/screenshot_03.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="/images/screenshot_04.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+                  </div>    
+                  <div class="column">
+                    <img class="demo cursor" src="/images/screenshot_05.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="/images/screenshot_06.jpg" style="width:100%" onclick="currentSlide(7)" alt="Snowy Mountains">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="/images/screenshot_07.jpg" style="width:100%" onclick="currentSlide(8)" alt="Snowy Mountains">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="/images/screenshot_08.jpg" style="width:100%" onclick="currentSlide(9)" alt="Snowy Mountains">
+                  </div>
+                </div>
+              </div>
+              <br>
+        </div>
     </section>
 
     <section id="services" class="hideable-section">
@@ -70,6 +192,7 @@
             });
         });
     </script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
