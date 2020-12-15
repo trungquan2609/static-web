@@ -1,4 +1,4 @@
-#Landing page
+#Landing page Dota 2
 ![Intro](/images/imgMD/Untitled.png)
 ![Giới thiệu](/images/imgMD/Untitled1.png)
 ![Thờ chơi được chơi nhiều nhất trên Steam](/images/imgMD/Untitled2.png)
