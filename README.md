@@ -1,6 +1,6 @@
 # Giới thiệu về bản thân và website
 Họ và tên: Nguyễn Trung Quân
-MSSVL: 1621050320
+MSSV: 1621050320
 Lớp: DCCTPM61_1
 >Đây là website được viết bởi em. Sau khi tìm hiểu về html, css, javascript và nội của một số website khác thì em đã ứng dụng được vào website này. Nội dung chủ yếu là về Dota 2! Tựa game được hàng triệu người yêu thích!
 
