@@ -275,6 +275,13 @@ footer {
     width: 100%;
 }
 
+.imgfooter {
+    background-color: #010101;
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin: auto;
+}
 #news {
     background-color: #010101;
 }
