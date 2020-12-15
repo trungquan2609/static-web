@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 header {
     text-align: center;
@@ -80,17 +81,23 @@ li.dropdown {
 .home {
     text-align: center;
 }
+a:hover {
+    cursor: pointer;
+}
 .contentIntro {
     background-image: url("/images/bg_03.jpg");
     background-repeat: no-repeat;
     text-align: center;
     background-size: cover;
+    float: left;
+    width: 100%;
 }
 .contentMirana {
     background-image: url("/images/bg_04.jpg");
     background-repeat: no-repeat;
     height: 700px;
     background-size: cover;
+    float: left;
 }
 #btn_playforfree {
     border: 1px solid #3A73A3;
@@ -126,6 +133,7 @@ h3.incontent2{
     background-repeat: no-repeat;
     height: 700px;
     color: #ACB4B9;
+    float: left;
 }
 .textTurret {
     width: 50%;
@@ -139,12 +147,13 @@ h3.incontent2{
     background-repeat: no-repeat;
     height: 700px;
     background-size: cover;
+    float: left;
 }
 .textDisruptor {
     width: 50%;
     float: right;
     margin-top: 5%;
-    font-size: 33px;
+    font-size: 32px;
     padding-right: 15%;
 }
 .contentGallery {
@@ -152,6 +161,7 @@ h3.incontent2{
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 20px;
+    float: left;
 }
 img {
     vertical-align: middle;
@@ -241,3 +251,222 @@ img {
   .demo:hover {
     opacity: 1;
   }
+
+.contentAllheroes {
+    background-image: url("/images/bg_08.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90%;
+    background-position: center;
+    float:left;
+    width: 100%;
+}
+.textAllheroes {
+    text-align: center;
+    color: #ACB4B9;
+    font-size: 30px;
+    padding-top: 10%;
+
+}
+footer {
+    background-color: #0A0A0A;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+
+#news {
+    background-color: #010101;
+}
+#about {
+    background-color: #010101;
+    height: 100%;
+}
+
+
+.news {
+    color: #A8BABC;
+    width: 70%;
+    background-color: #1E1F23;
+    margin: auto;
+    padding: 10px;
+}
+
+.about {
+    color: #A8BABC;
+    width: 70%;
+    background-color: #1E1F23;
+    margin: auto;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 1%;
+}
+Table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    color: #A8BABC;
+    padding: 10px;
+    text-align: left;
+}
+.newsHeader {
+    width: 80%;
+    margin: auto;
+}
+.aboutusFooter {
+}
+
+.columnFooteraboutus {
+    float: left;
+    width: 50%;
+}
+
+@media (max-width: 414px) {
+    video {
+        width: 100%;
+    }
+    .contentMirana {
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+    .textMirana {
+        font-size: 20px;
+        padding: 30px;
+        width: 100%;
+    }
+
+    .contentDisruptor {
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+    .textDisruptor {
+        font-size: 19px;
+        padding: 50px;
+        width: 100%;
+    }
+
+    .contentTurret {
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+    .textTurret {
+        font-size: 20px;
+        padding: 50px;
+        width: 100%;
+    }
+
+    .contentAllheroes {
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+    .textAllheroes {
+        font-size: 20px;
+        padding: 50px;
+        width: 100%;
+    }
+    footer {
+        float: left;
+    }
+    .img_footer {
+        width: 100%;
+    }
+    .container {
+        width: 90%;
+    }
+    .columnFooteraboutus {
+        float: left;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 415px) {
+    .contentMirana {
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+    .textMirana {
+        font-size: 30px;
+        padding: 50px;
+        width: 100%;
+    }
+
+    .contentDisruptor {
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+    .textDisruptor {
+        font-size: 30px;
+        padding: 50px;
+        width: 100%;
+    }
+
+    .contentTurret {
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+    .textTurret {
+        font-size: 30px;
+        padding: 50px;
+        width: 100%;
+    }
+
+    .contentAllheroes {
+        float: left;
+        padding: 0;
+        margin: 0;
+        height: 700px;
+    }
+    .textAllheroes {
+        font-size: 30px;
+        padding: 50px;
+        width: 100%;
+    }
+    footer {
+        float: left;
+    }
+    .img_footer {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1280px) and (min-width: 1024px) {
+    .contentMirana {
+        float: left;
+    }
+    .textMirana {
+        font-size: 26px;
+    }
+
+    .contentDisruptor {
+        float: left;
+    }
+    .textDisruptor {
+        font-size: 26px;
+    }
+
+    .contentTurret {
+        float: left;
+    }
+    .textTurret {
+        font-size: 26px;
+    }
+
+    .contentAllheroes {
+        float: left;
+    }
+    .textAllheroes {
+        font-size: 26px;
+    }
+    footer {
+        float: left;
+    }
+    .img_footer {
+        width: 100%;
+    }
+}
